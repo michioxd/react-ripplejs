@@ -1,11 +1,12 @@
 {
   "name": "react-ripplejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vanilla Material Design Ripple Effect implement for ReactJS",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "rollup  --config rollup.config.ts --configPlugin typescript"
+    "build": "rollup  --config rollup.config.ts --configPlugin typescript",
+    "publish": "rollup  --config rollup.config.ts --configPlugin typescript && npm publish --access public && exit 0"
   },
   "keywords": [
     "react",
