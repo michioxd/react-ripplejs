@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+
+# build output
+/dist
+/build
+
+# editor files
+.vscode
+.idea
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Rollup cache
+.cache
+
+# Mac files
+.DS_Store
