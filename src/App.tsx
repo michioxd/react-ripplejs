@@ -17,6 +17,10 @@ function App() {
         <Ripple className='btn' background='#646cff' onClick={() => setCount((count) => count + 1)}>
           count is {count} but it purple
         </Ripple>
+        <br />
+        <Ripple className='btn' background='#646cff' opacity='0.8' onClick={() => setCount((count) => count + 1)}>
+          count is {count} but it purple + opacity 0.8
+        </Ripple>
       </div>
       <p className="read-the-docs">
         Made with &hearts; by <a href="https://github.com/michioxd">michioxd</a> - <a href="https://github.com/michioxd/react-ripplejs">Fork me on GitHub</a>
