@@ -3,7 +3,8 @@ import styleSetup from "./styleSetup";
 
 interface RippleJS extends HTMLAttributes<HTMLDivElement> {
     opacity?: string,
-    background?: string
+    background?: string,
+    fill?: boolean
 }
 
 var rippleTypeAttr = 'data-event';
@@ -132,7 +133,7 @@ export default function Ripple(props: RippleJS) {
     return (
         <div {...props} style={{ position: 'relative', ...props.style }} ref={RippleElementRef}>
             {props.children}
-            <div className="rippleJS"></div>
+            <div className={"rippleJS" + (props.fill === true && " fill")}></div>
         </div>
     )
 }

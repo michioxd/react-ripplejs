@@ -6,6 +6,7 @@ specifiers:
   '@rollup/plugin-terser': ^0.4.0
   '@rollup/plugin-typescript': ^11.0.0
   '@types/react': ^18.0.28
+  '@types/rollup-plugin-peer-deps-external': ^2.2.1
   react: ^18.2.0
   rollup: ^3.18.0
   rollup-plugin-dts: ^5.2.0
@@ -19,6 +20,7 @@ devDependencies:
   '@rollup/plugin-terser': 0.4.0_rollup@3.18.0
   '@rollup/plugin-typescript': 11.0.0_elyygukqrpnyv7sactoooq5kjq
   '@types/react': 18.0.28
+  '@types/rollup-plugin-peer-deps-external': 2.2.1
   react: 18.2.0
   rollup: 3.18.0
   rollup-plugin-dts: 5.2.0_fn2onl6nbsljlgjr3jlzr6w7we
@@ -175,8 +177,16 @@ packages:
       rollup: 3.18.0
     dev: true
 
+  /@types/estree/0.0.39:
+    resolution: {integrity: sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==}
+    dev: true
+
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
+    dev: true
+
+  /@types/node/18.14.6:
+    resolution: {integrity: sha512-93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==}
     dev: true
 
   /@types/prop-types/15.7.5:
@@ -193,6 +203,13 @@ packages:
 
   /@types/resolve/1.20.2:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
+    dev: true
+
+  /@types/rollup-plugin-peer-deps-external/2.2.1:
+    resolution: {integrity: sha512-CUK4Mi3M3A/0coRUeo4McvUFOxR5H6UYd6Wt3D+K4c4fJupolMSoIxsZaBG1g/BJQOaujf78Pf7KhgfhrX1FZA==}
+    dependencies:
+      '@types/node': 18.14.6
+      rollup: 0.63.5
     dev: true
 
   /@types/scheduler/0.16.2:
@@ -444,6 +461,14 @@ packages:
       rollup: '*'
     dependencies:
       rollup: 3.18.0
+    dev: true
+
+  /rollup/0.63.5:
+    resolution: {integrity: sha512-dFf8LpUNzIj3oE0vCvobX6rqOzHzLBoblyFp+3znPbjiSmSvOoK2kMKx+Fv9jYduG1rvcCfCveSgEaQHjWRF6g==}
+    hasBin: true
+    dependencies:
+      '@types/estree': 0.0.39
+      '@types/node': 18.14.6
     dev: true
 
   /rollup/3.18.0:
