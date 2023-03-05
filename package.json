@@ -1,6 +1,6 @@
 {
   "name": "react-ripplejs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vanilla Material Design Ripple Effect implement for ReactJS",
   "main": "dist/index.js",
   "type": "module",
