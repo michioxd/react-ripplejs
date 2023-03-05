@@ -133,7 +133,7 @@ export default function Ripple(props: RippleJS) {
     return (
         <div {...props} style={{ position: 'relative', ...props.style }} ref={RippleElementRef}>
             {props.children}
-            <div className={"rippleJS" + (props.fill === true && " fill")}></div>
+            <div className={"rippleJS" + (props.fill === true ? " fill" : "")}></div>
         </div>
     )
 }
