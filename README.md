@@ -4,7 +4,7 @@ Adds Material Design-style feedback ripples to your existing HTML (React compone
 
 ## Demo
 
-coming soon :))
+[See the live demo here](https://michioxd.github.io/react-ripplejs/)
 
 ![Demo](./preview.gif)
 
