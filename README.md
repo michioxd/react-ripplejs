@@ -6,6 +6,8 @@ Adds Material Design-style feedback ripples to your existing HTML (React compone
 
 coming soon :))
 
+![Demo](./preview.gif)
+
 ## Requirements
 
 `'react': ^18.0.0`
